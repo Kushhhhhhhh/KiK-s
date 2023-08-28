@@ -42,7 +42,7 @@ return <div className="w-full h-[100vh] bg-bgColor flex items-center justify-cen
             
             {errMsg?.message && (
                 <span
-                className={`text-sm ${errMsg?.status == "failed"
+                className={`text-sm ${errMsg?.status === "failed"
                 ? "text-[#f64949fe]"
                 : "text-[#2ba150fe]"
               } mt-0.5`}

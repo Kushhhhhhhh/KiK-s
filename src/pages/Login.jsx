@@ -72,7 +72,7 @@ const dispatch = useDispatch();
             </Link>
           {errMsg?.message && (
               <span
-              className={`text-sm ${errMsg?.status == "failed"
+              className={`text-sm ${errMsg?.status === "failed"
               ? "text-[#f64949fe]"
               : "text-[#2ba150fe]"
             } mt-0.5`}

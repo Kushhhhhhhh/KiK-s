@@ -1,8 +1,14 @@
+
 export const user = {
     _id: "64df3c064180b81adfe41d4b",
-    firstName: "Code",
-    lastName: "Wave",
+    firstName: "Kush",
+    lastName: "Sharma",
     email: "codewavewithasante@gmail.com",
+    profession: "Full-Stack Developer",
+    Cprofession: "University Student",
+    location: "Uttarakhand, India",
+    
+   
     friends: [
       {
         _id: "64df3aec4180b81adfe41d32",
@@ -15,8 +21,7 @@ export const user = {
         createdAt: "2023-08-18T09:33:32.519Z",
         updatedAt: "2023-08-18T09:49:19.475Z",
         __v: 2,
-        profileUrl:
-          "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+        profileUrl: "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
       },
       {
         _id: "64df39704180b81adfe41d0b",
@@ -85,37 +90,42 @@ export const user = {
     verified: true,
     createdAt: "2023-08-18T09:38:14.179Z",
     updatedAt: "2023-08-21T06:46:18.258Z",
-    profileUrl:
-      "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874454/samples/people/boy-snow-hoodie.jpg",
+    profileUrl: "https://i.ibb.co/YLMV1K7/pfp.jpg",
     token: "hZWFmZmU3NmMiLCJpYXQiOjE2OTIwMzY5",
   };
   
   export const friends = [
     {
       _id: "64df3aec4180b81adfe41d32",
-      firstName: "John",
-      lastName: "Bruce",
+      firstName: "Pami",
+      lastName: "Baybi",
       email: "john@gmail.com",
+      profession: "Model",
       profileUrl:
-        "https://res.cloudinary.com/djs3wu5bg/image/upload/v1683874470/cld-sample.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivX9kD2HWWHdGS4RR0LHofCub0tOXGSh52A&usqp=CAU",
     },
     {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "James",
-      lastName: "Jackson",
+      firstName: "Alexa",
+      lastName: "Demie",
       email: "james@gmail.com",
       location: "Mumbai, India",
-      profession: "Full-Stack Developer",
+      profession: "Actress",
+      profileUrl:
+        "https://i.pinimg.com/474x/2c/3a/36/2c3a3668996d28cea1553c6806aa32ca.jpg",
     },
     {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "User",
-      lastName: "One",
+      firstName: "Nino",
+      lastName: "ekw",
       email: "user!@gmail.com",
+      profession: "Influencer",
+      profileUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGi175o0rMEDcyDxLY-W9eaH-_Vzs_RQ3Man5gAFYlYhCAlf-EfME03w111_ZuRfF5Pe0&usqp=CAU",
     },
   ];
   
-  export const requests = [
+  export const friendRequest = [
     {
       _id: "64df3aec4180b81adfe41d32",
       requestFrom: friends[0],

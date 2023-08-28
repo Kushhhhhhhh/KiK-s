@@ -99,7 +99,7 @@ const Register = () => {
             validate: (value) => {
               const { password } = getValues();
 
-              if(password != value) {
+              if(password !== value) {
                 return "Password do not match";
               }
             },
