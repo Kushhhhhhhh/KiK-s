@@ -3,5 +3,5 @@ import NoProfile from './userprofile.png'
 
 export {
     BgImage,
-    NoProfile
+    NoProfile,
 };

@@ -97,29 +97,29 @@ export const user = {
   export const friends = [
     {
       _id: "64df3aec4180b81adfe41d32",
-      firstName: "Pami",
-      lastName: "Baybi",
+      firstName: "Tshering",
+      lastName: "Bae",
       email: "john@gmail.com",
-      profession: "Model",
+      profession: "Cutie",
       profileUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivX9kD2HWWHdGS4RR0LHofCub0tOXGSh52A&usqp=CAU",
     },
     {
       _id: "64df39704180b81adfe41d0b",
-      firstName: "Alexa",
-      lastName: "Demie",
+      firstName: "Tshering",
+      lastName: "Ji",
       email: "james@gmail.com",
       location: "Mumbai, India",
-      profession: "Actress",
+      profession: "Senpai",
       profileUrl:
         "https://i.pinimg.com/474x/2c/3a/36/2c3a3668996d28cea1553c6806aa32ca.jpg",
     },
     {
       _id: "64df424b4a4c0d47b5369f65",
-      firstName: "Nino",
-      lastName: "ekw",
+      firstName: "Teshuu",
+      lastName: "Babe",
       email: "user!@gmail.com",
-      profession: "Influencer",
+      profession: "Slay Girl",
       profileUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGi175o0rMEDcyDxLY-W9eaH-_Vzs_RQ3Man5gAFYlYhCAlf-EfME03w111_ZuRfF5Pe0&usqp=CAU",
     },
